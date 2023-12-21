@@ -1,0 +1,438 @@
+*{
+    color: hsl(0deg 0% 100%);
+    font-family: 'DM Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* sidenav */
+.sidenav{
+    background-color: hsl(0deg 0% 0%);
+    width: 16%;
+    height: 100%;
+    position: fixed;
+}
+
+#logo{
+    width: 7rem;
+    padding: 1.3rem 2.2rem 1rem ;
+}
+
+/* section 1 */
+
+.sidenav-section1{
+    height: 7rem;
+}
+
+.section1{
+    display: flex;
+    margin-left: 1.5rem;
+    margin-top: 0.4rem;
+    width: 160px;
+    height: 25px;
+    border-radius: 3px;
+    padding: 2px;
+
+}
+
+#color{
+    background-color: hsl(0deg 0% 15.69%);
+}
+
+.section1 img{
+    width: 1.3rem;
+    height: 1.4rem;
+    padding: 1px 5px;
+}
+
+.section1 p{
+    font-size: 0.9rem;
+    padding: 2px;
+    padding-left: 1rem;
+    
+}
+
+/* section 2 */
+.sidenav-section2{
+    height: 7rem;
+    margin-top: 8px;
+}
+
+.section2{
+    display: flex;
+    margin-left: 1.5rem;
+    margin-top: 0.4rem;
+    width: 160px;
+    height: 25px;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.section2 img{
+    width: 1.3rem;
+    height: 1.4rem;
+}
+
+.section2 p{
+    font-size: 0.9rem;
+    padding: 2px;
+    padding-left: 1rem;
+    
+}
+
+#Fav{
+    font-size: 0.9rem;
+    margin-left: 1.6rem;
+    line-height: 2rem;
+}
+
+#Fav h2{
+    font-size: 1rem;
+}
+#install{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    width: 160px;
+    height: 25px;
+    display: flex;
+    padding: 2px;
+}
+
+#install img{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+#install h4{
+    font-size: 0.9rem;
+    padding-left: 1rem;
+}
+
+/* mainscreen */
+#mainscreen{
+    background-color: hsl(0deg 0% 12.94%);
+    width: 84%;
+    height: 100%;
+    position: fixed;
+    left: 16%;
+}
+
+/* top */
+
+#top{
+    height: 3.5rem;
+    display: flex;justify-content: space-between;
+}
+
+.arrows, .arrows img{
+    width: 4rem;
+    padding: 7px;
+}
+
+#profile{
+    background-image: url(./assets/object2.png);
+    display: flex;
+    width: 7rem;
+    height: 32px;
+    border-radius: 5rem;
+    margin: 1rem;
+}
+
+#profilepic{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin: 4px 4px;
+}
+
+#profile h4{
+    font-size: 0.8rem;
+    padding: 8px 6px;
+}
+
+#profile-arrow{
+    width: 1.5rem;
+    height: 2rem;
+}
+
+/* songs */
+
+#playlists{
+    height: 13rem; 
+}
+
+.songplaylist{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#playlists h1{
+    font-size: 26px;
+    padding-left: 1rem;
+}
+
+.song{
+    background-color: hsl(0deg 0% 18.82%);
+    width: 226px;
+    height: 60px;
+    border-radius: 4px;
+    display: flex;
+    margin: 1rem;
+
+}
+
+.song h3{
+    font-size: 0.9rem;
+    padding: 1.3rem 1.1rem ;
+}
+.cover{
+    width: 60px;
+}
+
+#dance-mix h3{
+    padding-top: 14px;
+}
+
+/* Shows */
+
+
+#heading-shows{
+    display: flex;
+    justify-content: space-between;
+}
+
+#heading-shows h1{
+    font-size: 19px;
+    padding: 1.1rem;
+}
+
+#heading-shows h2{
+    font-size: 11px;
+    color: hsl(0deg 0% 62.75%);
+    padding: 1.1rem;
+}
+
+#shows{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.show{
+    width: 160px;
+    height: 180px;
+    background-color: hsl(0deg 0% 9.41%);
+    border-radius: 5px;
+}
+
+.show img{
+    width: 130px;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.show h2{
+    font-size: 13px;
+    padding: 0.5rem 1rem 0rem;
+}
+
+footer{
+    background-color: hsl(0deg 0% 9.41%);
+    height: 11.5vh;
+    border: 1px solid hsl(0deg 0% 9.41%);
+    width: 99.9%;
+    position: absolute;
+    margin-top: 82.3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#music-player{
+    height: 11.5vh;
+    width: 17%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#MusicImg{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+h5{
+    font-size: 12px;
+    padding-top: 17px;
+}
+
+#Musicheart{
+    width: 20px;
+    height: 20px;
+    padding-top: 18px;
+}
+
+#playButton{
+    height: 11.5vh;
+    width: 40%;
+}
+
+#rightOption{
+    height: 4vh;
+    width: 18%;
+    margin: 4vh;
+}
+
+#greenLine{
+    background-color: hsl(141.41deg 75.51% 48.04%);
+    position: absolute;
+    height: 2.8vh;
+    width: 100%;
+    margin-top: 94.2vh;
+}
+
+@media only screen and (max-width: 900px)
+{
+    
+    /* sidenav */
+    .sidenav{
+        display: none;
+    }
+    
+    /* mainscreen */
+    #mainscreen{
+        width: 100%;
+        left: 0%;
+    }
+    
+    /* top */
+    
+    #top{
+        height: 10vh;
+    }
+    
+    .arrows, .arrows img{
+        width: 0rem;
+        padding: 0px;
+    }
+    
+    #profile{
+        width: 1rem;
+        height: 0px;
+        margin-right: 6vh;
+    }
+    
+    #profilepic{
+        width: 55px;
+        height: 55px;
+        margin-top: 1vh;
+    }
+    
+    #profile h4{
+        font-size: 0rem;
+        padding: 0px;
+    }
+    
+    #profile-arrow{
+        width: 0rem;
+        height: 0rem;
+    }
+    
+    /* songs */
+    
+    #playlists{
+        margin-top: -5vh;
+        height: 19rem; 
+    }
+    
+    .songplaylist{
+        margin-top: 2vh;
+    }
+    
+    #playlists h1{
+        font-size: 26px;
+        padding-left: 2vh;
+    }
+    
+    .song{
+        width: 181px;
+        height: 60px;
+    }
+    
+    .song h3{
+        font-size: 0.8rem;
+        padding: 1.3rem 1.1rem ;
+    }
+
+    .cover{
+        width: 60px;
+    }
+    
+    #dance-mix h3{
+        padding-top: 14px;
+    }
+    
+    /* Shows */
+    
+    
+    #heading-shows{
+        margin-top: 13vh;
+    }
+    
+    #shows{
+        width: 100%;
+        height: 35vh;
+        flex-wrap: wrap;
+    }
+    
+    .show{
+        width: 130px;
+        height: 148px;
+        margin-bottom: 2vh;
+    }
+    
+    .show img{
+        width: 100px;
+    }
+    
+    .show h2{
+        font-size: 10px;
+    }
+    
+    footer{
+        height: 8vh;
+        margin-top: 89vh;
+    }
+    
+    #music-player{
+        height: 9vh;
+        margin: 1vh;
+    }
+    
+    #MusicImg{
+        width: 55px;
+        height: 55px;
+        padding-top: 1px;
+    }
+    
+    h5{
+        font-size: 0px;
+    }
+    
+    #Musicheart{
+        width: 0px;
+        height: 0px;
+    }
+    
+    #playButton{
+        height: 4vh;
+        width: 50vh;
+        margin-top: 2.5vh;
+    }
+    
+    #rightOption{
+        height: 0vh;
+        width: 0vh;
+    }
+    
+    #greenLine{
+        margin-top: 97.4vh;
+    }
+}
